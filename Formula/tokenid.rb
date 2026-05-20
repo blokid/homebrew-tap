@@ -1,33 +1,33 @@
 # typed: false
 # frozen_string_literal: true
 
-# Template — placeholders 0.1.2-beta and @@SHA_*@@ are substituted by the
+# Template — placeholders 1.0.0 and @@SHA_*@@ are substituted by the
 # release-cli workflow and the rendered formula is pushed to the tap repo.
 class Tokenid < Formula
   desc     "Vaudit TokenID CLI — local LLM proxy with token usage analytics (token.audit.id)"
   homepage "https://token.audit.id"
-  version  "0.1.2-beta"
+  version  "1.0.0"
   license  "Apache-2.0"
 
   on_macos do
     on_arm do
-      url    "https://github.com/blokid/tokenid-api-wrapper/releases/download/cli-v0.1.2-beta/tokenid-darwin-arm64"
-      sha256 "56c686f04074c33fa92c8712ed78610da382c7ec7b23dcca335f630daa5f8ef9"
+      url    "https://github.com/blokid/tokenid-api-wrapper/releases/download/cli-v1.0.0/tokenid-darwin-arm64"
+      sha256 "0096ad3e9d4da4b9f919401d8d821e01022f5239a2e724184a0859759c0e2d2a"
     end
     on_intel do
-      url    "https://github.com/blokid/tokenid-api-wrapper/releases/download/cli-v0.1.2-beta/tokenid-darwin-amd64"
-      sha256 "04950914cae01f93043bfc312d3b873203cfd12cca182229daebb808ca4634ba"
+      url    "https://github.com/blokid/tokenid-api-wrapper/releases/download/cli-v1.0.0/tokenid-darwin-amd64"
+      sha256 "63a5a8b50da4e0bc17b98c71862f46fdf62a63504418b303ad10acfdf98e14e3"
     end
   end
 
   on_linux do
     on_arm do
-      url    "https://github.com/blokid/tokenid-api-wrapper/releases/download/cli-v0.1.2-beta/tokenid-linux-arm64"
-      sha256 "e84fa50a22d6ef34467771b0e1d2a7f695d6d95d29eb83dfe3a64377b753e386"
+      url    "https://github.com/blokid/tokenid-api-wrapper/releases/download/cli-v1.0.0/tokenid-linux-arm64"
+      sha256 "5f65ed51c0f2830b327befb56bfe442f558068bfd4bbd6cc79e38035be21d9bf"
     end
     on_intel do
-      url    "https://github.com/blokid/tokenid-api-wrapper/releases/download/cli-v0.1.2-beta/tokenid-linux-amd64"
-      sha256 "854d3fc891feed0877a59be25734d96b39f5bd848027958e9b6b4d88ef912a38"
+      url    "https://github.com/blokid/tokenid-api-wrapper/releases/download/cli-v1.0.0/tokenid-linux-amd64"
+      sha256 "493299690ec216099a816f5e3ca500258c148656ef678208f3d7eaa095be2e5f"
     end
   end
 
